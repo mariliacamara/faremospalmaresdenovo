@@ -3,6 +3,9 @@
 /* Colors */
 
 :root {
-  --primary: #015C44;
+  --primary: #1c7437;
+  --secondary: #941d0a;
+  --yellow-submarine: #3b895a;
   --white: #fff;
+  --black: #000;
 }
