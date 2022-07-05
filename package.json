@@ -1,9 +1,9 @@
 {
-  "name": "wordpress-template",
+  "name": "faremospalmaresdenovo",
   "version": "1.0.0",
-  "description": "A wordpress template to Gregg Sulkin Brasil",
+  "description": "A wordpress template for Douglas Belchior website",
   "main": "index.js",
-  "repository": "https://github.com/mariliacamara/SOLARIS_GSBR.git",
+  "repository": "https://github.com/mariliacamara/faremospalmaresdenovo",
   "author": "Marilia <mariliacamara.dev@gmail.com",
   "license": "MIT",
   "scripts": {

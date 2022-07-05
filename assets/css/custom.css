@@ -1,0 +1,8 @@
+/* This is a css file to set up some default styles that might change or not */
+
+/* Colors */
+
+:root {
+  --primary: #015C44;
+  --white: #fff;
+}
