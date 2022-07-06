@@ -99,3 +99,7 @@ ul#menu-new.menu {
 .display-5 span {
   font-style: italic;
 }
+
+.proposal-box {
+  height: 250px;
+}
