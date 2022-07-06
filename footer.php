@@ -1,3 +1,9 @@
+<?php
+  if ( ! defined( 'ABSPATH' ) ) {
+    exit; // Exit if accessed directly.
+  }
+?>
+
 <footer class="grey-bg pt-5 adelle-thin">
   <div class="container">
     <div class="row">

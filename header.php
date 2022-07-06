@@ -1,3 +1,9 @@
+<?php
+  if ( ! defined( 'ABSPATH' ) ) {
+    exit; // Exit if accessed directly.
+  }
+?>
+
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 
@@ -27,7 +33,8 @@
 							'theme_location' => 'primary',
 							'depth'          => 1,
 							'container'      => false
-						) ); ?>
+						) ); 
+          ?>
         </nav>
         </nav>
       </div>
@@ -37,7 +44,7 @@
   <header id="responsive_menu" class="sticky-top bg-white">
     <div class="container">
       <nav class="navbar navbar-light">
-        <a class="navbar-brand font-weight-bold" href="<?php echo get_site_url(); ?>">Religião e Poder</a>
+        <a class="navbar-brand font-weight-bold" href="<?php echo get_site_url(); ?>">Faremos Palmares de Novo</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -48,16 +55,8 @@
 							'theme_location' => 'primary',
 							'depth'          => 1,
 							'container'      => false
-						) ); ?>
-          <div id="search_container" class="adelle input-group input-group-sm pb-5">
-            <form class="position-relative form-inline" align="center" method="get" action="<?php echo home_url(); ?>"
-              role="search">
-              <input id="search" type="text" class="form-control search-border" aria-label="Small"
-                aria-describedby="inputGroup-sizing-sm" value="<?php echo get_search_query() ?>" name="s"
-                title="<?php echo esc_attr_x( 'Pesquisa por:', 'label' ) ?>">
-              <img id="search_img" src="<?php echo get_bloginfo('template_directory'); ?>/assets/img/loupe.png">
-            </form>
-          </div>
+						) ); 
+          ?>
         </div>
       </nav>
     </div>

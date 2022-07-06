@@ -1,3 +1,9 @@
+<?php
+  if ( ! defined( 'ABSPATH' ) ) {
+    exit; // Exit if accessed directly.
+  }
+?>
+
 <?php get_header(); ?>
 
 <article class="my-5 py-5 text-center">
