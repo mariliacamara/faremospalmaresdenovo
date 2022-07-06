@@ -101,5 +101,9 @@ ul#menu-new.menu {
 }
 
 .proposal-box {
-  height: 250px;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
 }
