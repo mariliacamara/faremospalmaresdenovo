@@ -29,8 +29,6 @@
           'post_type' => array( get_field( 'tipo_de_post') ),
           'post_status' => 'publish',
           'posts_per_page' => 6,
-          'orderby'=> 'title', 
-          'order' => 'ASC'
         );
         $eixos = new WP_Query( $args );
         if( $eixos->have_posts(  ) ):
