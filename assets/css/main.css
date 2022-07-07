@@ -3,11 +3,18 @@ body {
   scroll-behavior: smooth;
 }
 
-.display-5 {
-  font-size: 1rem
+.wrapper {
+  max-width: 90em;
+  width: 100%;
+  margin: 0 auto;
 }
 
 /* HEADER */
+
+#desktop_menu {
+  background-color: #fff!important;
+  display: none;
+}
 
 ul#menu-new.menu {
   margin: 0;
@@ -27,30 +34,68 @@ ul#menu-new.menu {
   color: #000;
 }
 
-/* FRONTPAGE */
-
-.custom-jumbotron {
-  background-color: var(--primary);
+.faremos { 
+  visibility: hidden;
 }
 
-.custom-jumbotron .display-2 {
-  font-weight: 600;
+.call-to-action a {
   color: var(--white);
-  width: 70%;
+  padding: 0.5rem;
+  background-color: var(--yellow-submarine);
+  border-radius: 8px;
 }
 
-.custom-jumbotron .display-2 + p {
-  margin-top: 2rem;
-  color: rgb(205, 205, 205);
-  width: 70%;
+/* 
+  FOOTER
+*/
+
+#footer {
+  margin-top: 4rem;
+  padding-top: 5rem!important;
 }
 
-.custom-jumbotron .btn-primary {
-  background-color: transparent;
-  border-color: var(--white);
-  margin-top: 1rem;
+#footer p {
+  font-family: 'Archivo Black', sans-serif;
+  margin: 0;
+  color: var(--yellow-text);
 }
 
+#footer p a {
+  color: var(--yellow-text);
+}
+
+#footer .social-list {
+  border-bottom: 2px solid var(--white);
+  display: flex;
+  gap: 0.3rem;
+  margin: 0;
+  padding: 0;
+}
+
+#footer .social-list li {
+  list-style-type: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: var(--yellow-text);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer .social-list li a {
+  color: var(--red-velvet);
+}
+
+#footer .social-list li i {
+  font-size: 12px;
+}
+
+#footer .newsletter {
+  border-bottom: 2px solid var(--white);
+}
+
+/* FRONTPAGE */
 .custom-navbar {
   height: 100px;
 }
@@ -59,31 +104,139 @@ ul#menu-new.menu {
   padding: 0 1.5rem;
 }
 
-.details h2 {
-  font-weight: 500;
+.banner img {
+  width: 100%;
+  object-fit: cover;
 }
 
-.details iframe {
-  margin-top: 2rem;
-  width: 100%;
-  height: 800px;
+#description {
+  color: var(--white);
+}
+
+#description > div {
+  padding: 6rem 0;
+}
+
+#description h2 {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 3.9rem;
+  text-transform: uppercase;
+}
+
+#description p {
+  font-size: 1rem;
+}
+
+.description-wrapper {
+  display: flex;
+  gap: 3rem;
+  padding: 0 2rem;
+  flex-direction: column;
+}
+
+#description .title {
+  min-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#description .title p {
+  margin-right: 5rem;
+}
+
+#description .btn-primary {
+  border: 1px solid var(--white);
+  background-color: transparent;
+}
+
+#participe {
+  padding: 4rem 0;
+}
+
+#participe .participe-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+#participe .participe-heading {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+#participe .text-box h2 {
+  font-family: 'Archivo Black', sans-serif;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+}
+
+#participe .text-box p {
+  font-size: 1.625rem;
+  color: var(--white);
+}
+
+#participe .image-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#participe .image-box img {
+  width: 300px;
+}
+
+#participe .text-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#participe .steps {
+  margin: 0;
+  padding: 0;
 }
 
 .eixos {
   margin-top: 2rem;
 }
 
-/* FOOTER */
-
-.social-list {
-  display: flex;
-  gap: 1rem;
-  margin: 0;
-  padding: 0;
+.eixos > h2 {
+  font-family: 'Archivo Black', sans-serif;
+  color: var(--dark-blue);
+  text-align: center;
+  font-size: 2rem;
+  padding: 2rem 0;
+  text-transform: uppercase;
 }
 
-.social-list li {
-  list-style-type: none;
+.eixo-box {
+  color: var(--yellow-text);
+  border-radius: 2.6rem;
+  padding: 2rem 2rem 1rem;
+  width: 100%;
+  height: 352px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.eixo-box h2 {
+  border-bottom: 1px solid var(--yellow-text);
+  padding-bottom: 0.5rem;
+  text-transform: lowercase;
+  font-weight: 300;
+}
+
+.eixo-box p {
+  font-size: 1.3rem;
+}
+
+.eixo-box a {
+  font-size: 1.5rem;
+  color: var(--yellow-submarine);
+  text-transform: lowercase;
 }
 
 /* EIXOS SINGLE PAGE */
@@ -92,18 +245,23 @@ ul#menu-new.menu {
   font-size: 1.2rem;
 }
 
-.display-5 {
-  font-weight: 400;
-}
-
-.display-5 span {
-  font-style: italic;
-}
-
 .proposal-box {
   height: 270px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   gap: 10px;
+}
+
+.eixos-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 0 2rem;
+  justify-content: center;
+  align-items: center
+}
+
+.box {
+  width: 100%
 }
