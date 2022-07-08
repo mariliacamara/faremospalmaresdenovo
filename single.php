@@ -16,11 +16,12 @@
       <h1 class="post-title">
         <?php the_title(); ?>
       </h1>
-      <p>Proposta enviada por <i><?= get_post_meta($post->ID, "name", true)?></i> sobre o tema
-        <i><?= get_post_meta($post->ID, "theme", true)?></i></p>
       <div class="post-content pt-5 pb-5">
         <?php the_content(); ?>
       </div>
+      <p class="text-right">Proposta enviada por <i><?= get_post_meta($post->ID, "name", true)?></i> sobre o tema
+        <i><?= get_post_meta($post->ID, "theme", true)?></i>
+      </p>
     </div>
   </div>
 
