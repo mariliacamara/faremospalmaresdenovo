@@ -241,18 +241,6 @@ ul#menu-new.menu {
 
 /* EIXOS SINGLE PAGE */
 
-.proposal-title {
-  font-size: 1.2rem;
-}
-
-.proposal-box {
-  height: 270px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 10px;
-}
-
 .eixos-wrapper {
   display: flex;
   flex-direction: column;

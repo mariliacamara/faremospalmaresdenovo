@@ -3,13 +3,14 @@
 /* Colors */
 
 :root {
-  --green-day: #018835;
-  --red-velvet: #CD342D;
-  --yellow-text: #F7EED6;
-  --yellow-submarine: #EC9814;
-  --white: #fff;
   --black: #000;
   --dark-blue: #263648;
+  --green-day: #018835;
+  --greys-anatomy: #707070;
+  --red-velvet: #CD342D;
+  --white: #fff;
+  --yellow-submarine: #EC9814;
+  --yellow-text: #F7EED6;
 }
 
 .red-bg {

@@ -1,0 +1,104 @@
+#single-pillar .post-title {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-top: 2rem;
+}
+
+#single-pillar .post-content {
+  color: var(--greys-anatomy);
+  font-size: 1.6rem;
+}
+
+#proposal-forms {
+  background: url('../img/forms-bg.png') no-repeat center center;
+  background-size: cover;
+  padding: 2rem 0;
+}
+
+#proposal-forms label {
+  color: var(--white);
+}
+
+#proposal-forms label,
+#proposal-forms input, #proposal-forms textarea, .wpcf7-form-control {
+  width: 100%!important;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  padding: 0.2rem;
+}
+
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* Some browsers will not display the caret when using calc, so we put the fallback first */ 
+  background: url("http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png") white no-repeat 98.5% !important; /* !important used for overriding all other customisations */
+  background: url("http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png") white no-repeat calc(100% - 10px) !important; /* Better placement regardless of input width */
+}
+/*For IE*/
+select::-ms-expand { display: none; }
+
+.wpcf7-submit {
+  background-color: var(--red-velvet);
+  border: none;
+  outline: none;
+  color: var(--white);
+  text-transform: uppercase;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 1rem;
+  padding: 1rem 0;
+  border-radius: 5px;
+}
+
+#proposals {
+  padding: 4rem 0 0;
+}
+
+#proposals > h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+#proposals .proposal-title {
+  font-size: 1.2rem;
+}
+
+#proposals .proposal-header {
+  color: var(--yellow-text);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 150px;
+  border-radius: 15px 15px 0 0;
+  padding: 2rem;
+}
+
+#proposals .proposal-header p {
+  padding: 0.5rem 0 0;
+  margin: 0;
+  border-top: 3px solid var(--yellow-text);
+}
+
+#proposals .proposal-box {
+  height: 335px;
+  border-radius: 15px;
+  box-shadow: 3px 5px 10px #00000029;
+}
+
+#proposals .proposal-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 175px;
+}
+
+#proposals .proposal-footer .proposal-description {
+  padding: 1rem 1rem 0;
+}
