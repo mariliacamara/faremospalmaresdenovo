@@ -62,6 +62,11 @@
   #proposals .proposal-footer a {
     color: <?php the_field('color') ?>;
   }
+
+  .wpcf7-submit {
+    background-color: <?php the_field('color') ?>;
+    ;
+  }
   </style>
 
   <?php 

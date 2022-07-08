@@ -42,7 +42,6 @@ select {
 select::-ms-expand { display: none; }
 
 .wpcf7-submit {
-  background-color: var(--red-velvet);
   border: none;
   outline: none;
   color: var(--white);

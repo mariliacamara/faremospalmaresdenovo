@@ -1,0 +1,26 @@
+#single-page .post-title {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-top: 2rem;
+}
+
+#single-page .post-content {
+  color: var(--greys-anatomy);
+  font-size: 1.6rem;
+}
+
+.single-propostas_eixo1 .post-title {
+  color: var(--red-velvet);
+  border-top: 5px solid var(--red-velvet);
+}
+
+.single-propostas_eixo2 .post-title {
+  color: var(--green-day);
+  border-top: 5px solid var(--green-day);
+}
+
+.single-propostas_eixo3 .post-title {
+  color: var(--dark-blue);
+  border-top: 5px solid var(--dark-blue);
+}

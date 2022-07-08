@@ -66,21 +66,6 @@
         </div>
         <div>
           <?php echo apply_shortcodes( '[smartslider3 slider="5"]' ); ?>
-
-          <!-- <ul class="steps">
-            <li class="step">
-              <p class="number">1</p>
-              <p>escolha um eixo</p>
-            </li>
-            <li>
-              <p>2</p>
-              <p>na pagina do eixo,<br> escolha o tema e <br> escreva sua pesquisa</p>
-            </li>
-            <li>
-              <p>3</p>
-              <p>crie quantas <br> propostas quiser</p>
-            </li>
-          </ul> -->
         </div>
       </div>
     </div>
