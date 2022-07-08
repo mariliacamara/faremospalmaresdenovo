@@ -21,7 +21,7 @@
             Movimento<br>
             Negro
           </h2>
-          <p class="text-right"><a class="btn btn-primary btn-lg" href="#" role="button">saiba mais</a></p>
+          <p class="text-md-right"><a class="btn btn-primary btn-lg" href="#" role="button">saiba mais</a></p>
         </div>
         <div class="text">
           <p>
